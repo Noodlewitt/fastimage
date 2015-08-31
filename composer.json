@@ -1,8 +1,19 @@
 {
-    "name": "tommoor/fastimage",
-    "description": "FastImage finds the dimensions or filetype of an image given its uri by fetching as little as needed",
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "minimum-stability": "stable"
+        "name": "noodlewitt/fastimage",
+        "description":"FastImage finds the size or type of an image given its uri by fetching as little as needed, ported by ",
+        "type": "library",
+        "keywords": [
+                "fastimage",
+                "image size",
+                "ruby port"
+        ],
+        "homepage": "https://github.com/sdsykes/fastimage",
+        "license": "MIT",
+        "description": "Fastimage",
+        "require": {
+                "php": ">=5.3.0"
+        },
+        "autoload": {
+            "classmap": ["/"]
+        }
 }
