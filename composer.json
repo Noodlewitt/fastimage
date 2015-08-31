@@ -1,0 +1,8 @@
+{
+    "name": "tommoor/fastimage",
+    "description": "FastImage finds the dimensions or filetype of an image given its uri by fetching as little as needed",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "stable"
+}
